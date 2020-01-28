@@ -18,7 +18,6 @@ class SwiftCardViewController: UIViewController {
     //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        drawButton.layer.cornerRadius = drawButton.frame.height/2
         self.fetchCards()
     }
     
